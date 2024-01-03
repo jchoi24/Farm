@@ -158,8 +158,8 @@ task.wait(3.1)
 	end
         processListingInfo(uid, gems, item, version, shiny, amount, username, boughtPet, ping)  
 
-    elseif string.find(item, "Exclusive") and price <= 30000 then
-task.wait(3.1)
+    elseif string.find(item, "Exclusive") and price <= 40000 then
+task.wait(3.15)
         local boughtPet, boughtMessage = purchase:InvokeServer(playerid, uid)
 	processListingInfo(uid, gems, item, version, shiny, amount, username, boughtPet, ping)
 
